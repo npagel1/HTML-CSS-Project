@@ -1,0 +1,198 @@
+/*Nick Pagel, 12/02/2023*/
+/*Final Project, Bestiary of Middle-Earth & Nümenor*/
+
+body {background-color: #EAEAEA;
+    color: #555555;
+    font-family: Arial, Helvetica, sans-serif;}
+
+header {background-color: #db9a1f; 
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    letter-spacing: 0.25em;}
+
+nav {background-color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+    padding: 0;
+    font-size: 120%;}
+
+nav a {text-decoration: none;}
+
+nav ul {list-style: none;
+    margin: 0;
+    font-size: 1.2em;
+    padding-left: 0;}
+
+nav li {border-bottom: 1px solid #db9a1f;}
+
+h1 {margin-bottom: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 0;}
+
+h2 {color: #aa2b22;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;}
+
+h3 {font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #f78400;}
+
+h4 {font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #c58a09;}
+
+main ul {list-style-image: url(../images/The_one_ring_animated.jpg);}
+
+main ol {list-style-image: url(../images/The_one_ring_animated.jpg);}
+
+li {line-height: 1.5;
+    color: #c58a09;}
+
+footer {font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 2em;
+    background-color: #000000;}
+
+div{height: 400;
+    width: 100%;}
+
+#contact {font-size: 90%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #FFFFFF;}
+
+#wrapper {margin-right: auto;
+    background-color: #FFFFFF;}
+
+main {padding: 1px 20px 20px 20px;
+    display: block;
+    background-color: #000000;
+    overflow: auto;}
+
+#middle-earth {background-image: url(../images/Middle-Earth.webp);
+    height: 400px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;}
+
+nav :link {color: #000000;}
+
+nav :visited {color: #000000;}
+
+nav :hover {color: #c58a09;}
+
+header a {color: #FFFFFF;
+    text-decoration: none;}
+
+header h1 :link {color: #FFFFFF;}
+
+header h1 :visited {color: #FFFFFF;}
+
+header h1 :hover {color: #c6d02f;}
+
+P {color: #FFFFFF;}
+
+form {display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 30em;}
+
+#balrog {background-image: url(../images/Balrog.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%S;
+    height: 15em;}
+
+#durinsbane {background-image: url(../images/Balrog_vs_Gandalf.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%S;
+    height: 10em;}
+
+#dragons {background-image: url(../images/Morgothwebp.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%S;
+    height: 15em;}
+
+#ancalagon {background-image: url(../images/Ancalagon.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%S;
+    height: 10em;}
+
+#smaug {background-image: url(../images/Smaugwebp.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%S;
+    height: 10em;}
+
+#spiders {background-image: url(../images/SpidersOfMirkwood_Gelekas.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%S;
+    height: 15em;}
+
+#ungoliant {background-image: url(../images/Ungoliant_Spider.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%S;
+    height: 10em;}
+
+#shelob {background-image: url(../images/shelob.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%S;
+    height: 10em;}
+
+#pagelink {font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;}
+
+li :link {color: #c58a09;}
+
+li :visited {color: #c58a09;}
+
+li :hover {color: #FFFFFF;}
+
+* {box-sizing: border-box;}
+
+@media (min-width: 800px)  {
+	body {background-color: #db9a1f;
+        background-image: linear-gradient(to bottom, #000000, #db9a1f);
+        background-repeat: no-repeat;}
+
+    header {height: 120px;
+        padding-top: 30px;}
+
+    nav {background-color: white;
+        padding: 1em;}
+
+    nav ul {display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;}
+
+    nav li {border-bottom: none;}}
+
+    section {margin-left: 2em;
+        margin-right: 2em;
+        flex: 1;}
+
+    @media (min-width: 1250px) {
+        #wrapper {margin: auto;
+            width: 80%;
+            border: 2px solid #000000;
+            box-shadow: 4px 4px 4px #333;}
+        
+        header {background-image: url(../images/1955035bf9cc014f3cf1e66bfddf8982.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100%;
+            text-align: left;
+            height: 120px;}
+        
+        h1 {font-size: 2em;
+            letter-spacing: 0.2em;
+            margin-right: 35%;
+            margin-left: 3em;
+            margin-top: 0;}}
